@@ -1,5 +1,5 @@
 import React from 'react'
-import { GrSearch } from 'react-icons/gr';
+import { FaSearch } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 
 export default function Header() {
@@ -18,7 +18,7 @@ export default function Header() {
                         placeholder='Search for houses'
                         className='bg-transparent text-slate-500 placeholder-slate-500 focus:outline-none w-24 sm:w-64'
                     />
-                    <GrSearch className='text-slate-500' />
+                    <FaSearch className='text-slate-500' />
                 </form>
                 <ul className='flex gap-4'>
                     <Link to={'/'}><li className='hidden sm:inline text-slate-700 font-bold hover:text-violet-600'>Home</li></Link>
